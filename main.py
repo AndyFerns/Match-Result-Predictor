@@ -4,9 +4,9 @@ from predictor import FootballMatchPredictor
 if __name__ == "__main__":
     # Initialize and train the predictor
     predictor = FootballMatchPredictor('Premier League')
-    predictor.train("../Datasets/season-2425.csv")
+    predictor.train("/Datasets/season-2425.csv")
 
-    print("Enter match-ups (format: HomeTeam vs AwayTeam). Type 'exit', 'close', or 'quit' to exit.")
+    print("\nEnter match-ups (format: HomeTeam vs AwayTeam). Type 'exit', 'close', or 'quit' to exit.")
     # Loop until user exits
     while True:
         try:
