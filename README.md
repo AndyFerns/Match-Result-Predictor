@@ -1,6 +1,6 @@
 # FootballMatchPredictor
 
-A Python library to train and predict soccer match outcomes using historical data and a Random Forest classifier.
+A Python project to train and predict soccer match outcomes using historical data and a Random Forest classifier.
 
 ---
 
@@ -42,18 +42,19 @@ pip install pandas numpy scikit-learn
 ## Installation
 
 1. Clone this repository:
-   ```bash
+ ```bash
 git clone https://github.com/your-username/FootballMatchPredictor.git
 cd FootballMatchPredictor
 ```
+
 2. (Optional) Create and activate a virtual environment:
-   ```bash
+ ```bash
 python -m venv venv
 source venv/bin/activate   # on macOS/Linux
 venv\Scripts\activate      # on Windows
 ```
 3. Install dependencies:
-   ```bash
+ ```bash
 pip install -r requirements.txt
 ```
 
@@ -78,7 +79,7 @@ print(result)
 
 ## Project Structure
 
-```
+```text
 .
 ├── src/
 │   └── football_predictor.py  # FootballMatchPredictor class
